@@ -1,0 +1,6 @@
+C:\Users\korad\Desktop\test2\BBfeladat\BBfeladat\bin\Debug\BBfeladat.exe.config
+C:\Users\korad\Desktop\test2\BBfeladat\BBfeladat\bin\Debug\BBfeladat.exe
+C:\Users\korad\Desktop\test2\BBfeladat\BBfeladat\bin\Debug\BBfeladat.pdb
+C:\Users\korad\Desktop\test2\BBfeladat\BBfeladat\obj\Debug\BBfeladat.csprojAssemblyReference.cache
+C:\Users\korad\Desktop\test2\BBfeladat\BBfeladat\obj\Debug\BBfeladat.exe
+C:\Users\korad\Desktop\test2\BBfeladat\BBfeladat\obj\Debug\BBfeladat.pdb
