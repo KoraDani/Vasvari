@@ -20,6 +20,20 @@
                 echo $i.'; ';
             }
         }
+        $kisebb = 0;
+        $nagyobb = 0;
+        for ($i=0; $i < 100; $i++) { 
+            if ($t[$i] < 50) {
+                $kisebb++;
+            }if ($t[$i] > 50) {
+                $nagyobb++;
+            }
+        }
+        if () {
+            # code...
+        }
+        echo '<p>'.$kisebb.'</p>';
+        echo '<p>'.$nagyobb.'</p>';
     ?>
 </body>
 </html>
