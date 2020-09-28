@@ -1,0 +1,5 @@
+J:\C#\Ismétlés\Szamkitalalo\bin\Debug\Szamkitalalo.exe.config
+J:\C#\Ismétlés\Szamkitalalo\bin\Debug\Szamkitalalo.exe
+J:\C#\Ismétlés\Szamkitalalo\bin\Debug\Szamkitalalo.pdb
+J:\C#\Ismétlés\Szamkitalalo\obj\Debug\Szamkitalalo.exe
+J:\C#\Ismétlés\Szamkitalalo\obj\Debug\Szamkitalalo.pdb

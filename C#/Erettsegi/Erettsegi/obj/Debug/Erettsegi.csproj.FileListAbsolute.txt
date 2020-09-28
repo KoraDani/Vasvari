@@ -1,0 +1,7 @@
+J:\C#\Erettsegi\Erettsegi\bin\Debug\Erettsegi.exe.config
+J:\C#\Erettsegi\Erettsegi\bin\Debug\Erettsegi.exe
+J:\C#\Erettsegi\Erettsegi\bin\Debug\Erettsegi.pdb
+J:\C#\Erettsegi\Erettsegi\obj\Debug\Erettsegi.csprojAssemblyReference.cache
+J:\C#\Erettsegi\Erettsegi\obj\Debug\Erettsegi.csproj.CoreCompileInputs.cache
+J:\C#\Erettsegi\Erettsegi\obj\Debug\Erettsegi.exe
+J:\C#\Erettsegi\Erettsegi\obj\Debug\Erettsegi.pdb

@@ -1,0 +1,6 @@
+J:\C#\Ismétlés\Valtozok\bin\Debug\Valtozok.exe.config
+J:\C#\Ismétlés\Valtozok\bin\Debug\Valtozok.exe
+J:\C#\Ismétlés\Valtozok\bin\Debug\Valtozok.pdb
+J:\C#\Ismétlés\Valtozok\obj\Debug\Valtozok.csprojAssemblyReference.cache
+J:\C#\Ismétlés\Valtozok\obj\Debug\Valtozok.exe
+J:\C#\Ismétlés\Valtozok\obj\Debug\Valtozok.pdb

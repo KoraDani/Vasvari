@@ -1,0 +1,6 @@
+J:\C#\Ismétlés\VezerlesiSzerkezetek\bin\Debug\VezerlesiSzerkezetek.exe.config
+J:\C#\Ismétlés\VezerlesiSzerkezetek\bin\Debug\VezerlesiSzerkezetek.exe
+J:\C#\Ismétlés\VezerlesiSzerkezetek\bin\Debug\VezerlesiSzerkezetek.pdb
+J:\C#\Ismétlés\VezerlesiSzerkezetek\obj\Debug\VezerlesiSzerkezetek.exe
+J:\C#\Ismétlés\VezerlesiSzerkezetek\obj\Debug\VezerlesiSzerkezetek.pdb
+J:\C#\Ismétlés\VezerlesiSzerkezetek\obj\Debug\VezerlesiSzerkezetek.csprojAssemblyReference.cache

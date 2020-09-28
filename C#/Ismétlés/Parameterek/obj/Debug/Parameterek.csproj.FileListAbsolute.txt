@@ -1,0 +1,6 @@
+J:\C#\Ismétlés\Parameterek\bin\Debug\Parameterek.exe.config
+J:\C#\Ismétlés\Parameterek\bin\Debug\Parameterek.exe
+J:\C#\Ismétlés\Parameterek\bin\Debug\Parameterek.pdb
+J:\C#\Ismétlés\Parameterek\obj\Debug\Parameterek.csprojAssemblyReference.cache
+J:\C#\Ismétlés\Parameterek\obj\Debug\Parameterek.exe
+J:\C#\Ismétlés\Parameterek\obj\Debug\Parameterek.pdb

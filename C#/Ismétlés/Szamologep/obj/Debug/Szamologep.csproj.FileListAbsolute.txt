@@ -1,0 +1,5 @@
+J:\C#\Ismétlés\Szamologep\bin\Debug\Szamologep.exe.config
+J:\C#\Ismétlés\Szamologep\bin\Debug\Szamologep.exe
+J:\C#\Ismétlés\Szamologep\bin\Debug\Szamologep.pdb
+J:\C#\Ismétlés\Szamologep\obj\Debug\Szamologep.exe
+J:\C#\Ismétlés\Szamologep\obj\Debug\Szamologep.pdb
