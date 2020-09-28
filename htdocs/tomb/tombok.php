@@ -32,6 +32,15 @@
             echo '<li>'.current($autok).'</li>';
         }
         echo '</ul>';
+
+        echo '<ol>';
+        end($autok);
+        do {
+            echo '<li>'.current($autok).'</li>';
+        } while (prev($autok));
+        echo '</ol>';
+
+        $gen = array();
     ?>
 </body>
 </html>
