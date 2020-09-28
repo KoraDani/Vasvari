@@ -1,0 +1,14 @@
+table, td{
+    border: 2px solid black;
+    border-collapse:  collapse;
+}
+td{
+    width: 50px;
+    height: 50px;
+}
+.foatlo{
+    background-color: red;
+}
+.mellekatlo{
+    background-color: green;
+}

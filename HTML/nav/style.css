@@ -1,0 +1,30 @@
+nav{
+    background-color: brown;
+}
+header{
+    background-color: aqua;
+    height: 15%;
+}
+body{
+    text-align: center;
+    height: auto;
+}
+article{
+    background-color: green;
+}
+section{
+    background-color: blue;
+    float: left;
+    width: 100%;
+    height: 75%;
+}
+footer{
+    height: 10%;
+    background-color: darkgreen;
+    clear: both;
+}
+aside{
+    background-color: coral;
+    text-align: right;
+    float: right;
+}
