@@ -25,6 +25,13 @@
             $index++;
         }
         echo '</table>';
+        
+        //next()
+        echo '<ul>';
+        while (next($autok)) {
+            echo '<li>'.current($autok).'</li>';
+        }
+        echo '</ul>';
     ?>
 </body>
 </html>
