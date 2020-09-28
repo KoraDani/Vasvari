@@ -18,9 +18,11 @@
         array_push($autok,"Honda","BMW"); //2 elemet fűzik a végéhez
         array_shift($autok); // 1 elemet törlök az elejéről
         array_unshift($autok,"Ford"); //1 elem az elejére
+        $index = 0;
         echo '<table>';
-        for ($i=0; $i < count($autok); $i++) { 
-            echo '<tr> <td>'.($i+1).'.</td> <td>'.$autok[$i].'</td> </tr>';
+        while(!(count($autok) == $index)) { 
+            echo '<tr> <td>'.($index+1).'.</td> <td>'.$autok[$index].'</td> </tr>';
+            $index++;
         }
         echo '</table>';
     ?>
