@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <ul></ul>
+    <script>
+        let lista = document.getElementsByTagName('ul')[0];
+        let tmp;
+        for (var index = 1000; index < 10000; index++) {
+            console.log(typeof (index));
+            tmp = String(index);
+            if ((tmp.charAt(0) == tmp.charAt(3)) && (tmp.charAt(1) == tmp.charAt(2)))
+                lista.innerHTML += '<li>' + index + '</li>';
+        }
+    </script>
+
+    <input type="text" id="szoveg">
+</body>
+
+</html>
