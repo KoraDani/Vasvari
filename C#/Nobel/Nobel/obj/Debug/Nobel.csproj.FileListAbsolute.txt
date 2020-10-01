@@ -1,0 +1,7 @@
+J:\Vasvari\C#\Nobel\Nobel\bin\Debug\Nobel.exe.config
+J:\Vasvari\C#\Nobel\Nobel\bin\Debug\Nobel.exe
+J:\Vasvari\C#\Nobel\Nobel\bin\Debug\Nobel.pdb
+J:\Vasvari\C#\Nobel\Nobel\obj\Debug\Nobel.csprojAssemblyReference.cache
+J:\Vasvari\C#\Nobel\Nobel\obj\Debug\Nobel.csproj.CoreCompileInputs.cache
+J:\Vasvari\C#\Nobel\Nobel\obj\Debug\Nobel.exe
+J:\Vasvari\C#\Nobel\Nobel\obj\Debug\Nobel.pdb
