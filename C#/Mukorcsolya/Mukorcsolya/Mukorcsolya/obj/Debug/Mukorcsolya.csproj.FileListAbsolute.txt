@@ -1,0 +1,7 @@
+J:\Vasvari\C#\Mukorcsolya\Mukorcsolya\Mukorcsolya\bin\Debug\Mukorcsolya.exe.config
+J:\Vasvari\C#\Mukorcsolya\Mukorcsolya\Mukorcsolya\bin\Debug\Mukorcsolya.exe
+J:\Vasvari\C#\Mukorcsolya\Mukorcsolya\Mukorcsolya\bin\Debug\Mukorcsolya.pdb
+J:\Vasvari\C#\Mukorcsolya\Mukorcsolya\Mukorcsolya\obj\Debug\Mukorcsolya.csprojAssemblyReference.cache
+J:\Vasvari\C#\Mukorcsolya\Mukorcsolya\Mukorcsolya\obj\Debug\Mukorcsolya.csproj.CoreCompileInputs.cache
+J:\Vasvari\C#\Mukorcsolya\Mukorcsolya\Mukorcsolya\obj\Debug\Mukorcsolya.exe
+J:\Vasvari\C#\Mukorcsolya\Mukorcsolya\Mukorcsolya\obj\Debug\Mukorcsolya.pdb
