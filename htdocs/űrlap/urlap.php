@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <form action="#" method="get">
+    <form action="#" method="post">
         <input type="text" name="user" placeholder="Felhasználónév"><br>
         <input type="password" name="pwd" placeholder="Jelszó"><br>
         <label for="fiu">Fiú</label>
@@ -20,11 +20,13 @@
         <input type="submit" name="submit" value="Olvas">
     </form>
     <?php
-        if (isset($_GET['submit'])) {
+        if (isset($_POST['submit'])) {
             //Elküldték az űrlapot feldolgozásra
             echo "Olvas...";
-            var_dump($_GET);
+            var_dump($_POST);
            // echo $_GET[''];
+           echo '<p>Felhasználónév: '.$_POST['user'].'</p>';
+           echo '<p>Jelszó: '.$_POST['pwd'].'</p>';
         }
     ?>
 </body>
