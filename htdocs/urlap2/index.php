@@ -7,11 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Űrlap</title>
 </head>
-
+<!--pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{7,}" required mbstr multib-->
 <body>
     <form action="#" method="get">
-        <input type="email" name="email1" placeholder="Email" action="#" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br>
-        <input type="password" name="pwd" placeholder="Jelszó" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{7,}" required><br>
+        <input type="email" name="email1" placeholder="Email" action="#" ><br>
+        <input type="password" name="pwd" placeholder="Jelszó" ><br>
         <input type="submit" value="Submit">
     </form>
     <?php
@@ -23,7 +23,7 @@
         $uppercase = preg_match('@[A-Z]@',$password);
         $lowercase = preg_match('@[a-z]@',$password);
         $number = preg_match('@[0-9]@',$password);
-        $length = preg_match('@^.{7,10}$@',$password);
+        $length = preg_match('@^.{7}$@',$password);
         if (!($uppercase || $lowercase || $number || $length)) {
             echo "Nem megfelelő jelszó";
         }
