@@ -1,0 +1,26 @@
+1. Számolás
+Hány fociklub szerepel a listában?
+2. Szűrés
+Hány jobb rúgólábas szerepel a listában?
+3. Összeadás
+Összesen hány millió a klubbok költségvetése?
+4. Átlag
+Hány cm az átlag focista?
+5-6. Maximum
+Hány cm a legmagasabb focista?
+Melyik a legnagyobb mezszám?
+7-8. Szűrés, iterálás
+Mely focisták magassága kisebb, mint 180cm?
+Ki(k)é a legnagyobb mezszám?
+9-10. Sorbarendezés
+Rendezze mezszámok szerint a focistákat!
+Rendezze csökkenő sorrendbe, költségvetés szerint a klubbokat!
+11-12. Csoportosítás
+Csoportosítsa a focistákat klubbok alapján és számolja meg a tagokat!
+Csoportosítsa rúgóláb alapján a játékosokat és számolja meg őket!
+13. Egyetlen elem kiválasztása
+Melyik az a klub,aminek az alapítása éve kisebb mint 1950 és a költségvetése 500 millió felett van?
+14. Kiválasztás
+Írja ki a bal rúgólábas focistáknak és klubjának neveit!
+15. Feltételes keresés
+Játszik e valamelyik csapatban Romelu Lukaku?
