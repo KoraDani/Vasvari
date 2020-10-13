@@ -21,6 +21,10 @@ public class PlayerDB : MonoBehaviour
     {
         return this.health;
     }
+    public void setHealth(float health)
+    {
+        this.health = health;
+    }
     public float getJump()
     {
         return this.jump;
