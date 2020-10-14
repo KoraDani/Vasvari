@@ -1,33 +1,54 @@
 html {
-	background-color: #fff;
+    background-color: #d2691e;
+    width: 960px;
+    margin: auto;
 }
 
 body {
-	border-left     : 2px solid #a52a2a;
-	border-right    : 2px solid #a52a2a;
-	padding         : 0 20px;
+    border-left: 2px solid #a52a2a;
+    border-right: 2px solid #a52a2a;
+    padding: 0 20px;
 }
 
 h1 {
-	margin       	: 0;
-	padding      	: 0 0 10px;
+    margin: 0;
+    padding: 0 0 10px;
+    text-decoration: underline #a52a2a;
 }
 
 h2 {
-	padding         : 10px;
+    padding: 10px;
+    width: 96%;
+    background-color: #cd853f;
 }
 
-
 .hasab {
-	margin			: 0 2.5%;
+    margin: 0 2.5%;
+    display: inline-table;
 }
 
 footer {
-	clear     		: both;
-	padding   		: 10px 0;
-	border-top		: 2px solid #a52a2a;
+    clear: both;
+    padding: 10px 0;
+    border-top: 2px solid #a52a2a;
 }
 
 img {
-	margin			: 10px;
+    margin: 10px;
+    width: 100px;
+    border: 2px solid #a52a2a;
+    float: left;
+}
+
+li {
+    display: inline-block;
+    /*Egymás mellé teszi a listát*/
+    border-right: 2px solid #a52a2a;
+    /*A legutolsó szegély nem kéne, de valahogy így kell megoldani*/
+    color: white;
+    /*Bélés keretet kéne meg ide csinálni de nem tudom mi az*/
+}
+
+p {
+    text-align: justify;
 }

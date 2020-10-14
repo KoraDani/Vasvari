@@ -17,7 +17,7 @@
         $autok = array("Volvo","Suzuki","Opel","Trabant","Kia");
         array_push($autok,"Honda","BMW"); //2 elemet fűzik a végéhez
         array_shift($autok); // 1 elemet törlök az elejéről
-        array_unshift($autok,"Ford"); //1 elem az elejére
+        array_unshift($autok,"Ford"); //1 új elem az elejére
         $index = 0;
         echo '<table>';
         while(!(count($autok) == $index)) { 
