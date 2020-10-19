@@ -19,6 +19,13 @@
     }
     function palindrome($asd)
     {
+        $asd = strtolower($asd);
+        $asd= str_replace(" ","", $asd);
+        $ekezet = array("á","é","ó","ő","ü","ö","ű","ú","í");
+        $nemekezet= array("a","e","o","u","i");
+        $irasjel=array(".","!","?");
+        $asd = str_replace($irasjel,"",$asd);
+        $asd = str_replace($ekezet,$nemekezet,$asd);
         if ($asd == strrev($asd))
             return "Palindrom";
         else
