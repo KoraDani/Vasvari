@@ -28,9 +28,11 @@ table, td, th {
             while ($row =$result -> fetch_array()) {
                 echo "<tr>";
                 echo "<td>{$row[0]}</td>";
-                echo "<td>{$row[1]}</a></td>";
+                echo "<td>{$row[1]}</td>";
                 echo "<td>{$row[2]}</td>";
                 echo "<td>{$row[3]}</td>";
+                echo "<td>{$row[4]}</td>";
+                echo "<td>{$row[5]}</td>";
                 echo "</tr>";
             }
             echo "</table>";
