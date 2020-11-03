@@ -39,7 +39,11 @@
             this.OldalATextBox = new System.Windows.Forms.TextBox();
             this.CalculateButton = new System.Windows.Forms.Button();
             this.errorPOldalA = new System.Windows.Forms.ErrorProvider(this.components);
+            this.oldalBTextBox = new System.Windows.Forms.TextBox();
+            this.OladlBLable = new System.Windows.Forms.Label();
+            this.errorPOldalB = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.errorPOldalA)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorPOldalB)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -85,6 +89,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(150, 21);
             this.comboBox1.TabIndex = 4;
+            this.comboBox1.SelectedValueChanged += new System.EventHandler(this.comboBox1_SelectedValueChanged);
             // 
             // KeruletTextBox
             // 
@@ -115,16 +120,39 @@
             this.CalculateButton.TabIndex = 8;
             this.CalculateButton.Text = "Kiszámol";
             this.CalculateButton.UseVisualStyleBackColor = true;
+            this.CalculateButton.Click += new System.EventHandler(this.CalculateButton_Click);
             // 
             // errorPOldalA
             // 
             this.errorPOldalA.ContainerControl = this;
+            // 
+            // oldalBTextBox
+            // 
+            this.oldalBTextBox.Location = new System.Drawing.Point(286, 52);
+            this.oldalBTextBox.Name = "oldalBTextBox";
+            this.oldalBTextBox.Size = new System.Drawing.Size(150, 20);
+            this.oldalBTextBox.TabIndex = 9;
+            // 
+            // OladlBLable
+            // 
+            this.OladlBLable.AutoSize = true;
+            this.OladlBLable.Location = new System.Drawing.Point(245, 55);
+            this.OladlBLable.Name = "OladlBLable";
+            this.OladlBLable.Size = new System.Drawing.Size(41, 13);
+            this.OladlBLable.TabIndex = 10;
+            this.OladlBLable.Text = "Oldal B";
+            // 
+            // errorPOldalB
+            // 
+            this.errorPOldalB.ContainerControl = this;
             // 
             // SokszogForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(448, 261);
+            this.Controls.Add(this.OladlBLable);
+            this.Controls.Add(this.oldalBTextBox);
             this.Controls.Add(this.CalculateButton);
             this.Controls.Add(this.OldalATextBox);
             this.Controls.Add(this.TeruletTextBox);
@@ -138,6 +166,7 @@
             this.Text = "SzokszogForm";
             this.Load += new System.EventHandler(this.SokszogForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errorPOldalA)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorPOldalB)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -155,5 +184,8 @@
         private System.Windows.Forms.TextBox OldalATextBox;
         private System.Windows.Forms.Button CalculateButton;
         private System.Windows.Forms.ErrorProvider errorPOldalA;
+        private System.Windows.Forms.Label OladlBLable;
+        private System.Windows.Forms.TextBox oldalBTextBox;
+        private System.Windows.Forms.ErrorProvider errorPOldalB;
     }
 }

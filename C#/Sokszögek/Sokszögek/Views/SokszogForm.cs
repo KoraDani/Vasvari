@@ -25,15 +25,43 @@ namespace Sokszögek.Views
         public string Terulet { set => TeruletTextBox.Text = value; }
         public List<string> SokszogList { set => comboBox1.DataSource = value; }
 
-        public string oldalA => OldalALable.Text;
+        public string oldalA => OldalATextBox.Text;
 
         public string errorOldalA { 
             get => errorPOldalA.GetError(OldalATextBox);
             set => errorPOldalA.SetError(OldalATextBox, value); }
 
+        public string oldalB => oldalBTextBox.Text;
+
+        public string errorOldalB { 
+            get => errorPOldalB.GetError(oldalBTextBox);
+            set => errorPOldalB.SetError(oldalBTextBox, value); }
+
         private void SokszogForm_Load(object sender, EventArgs e)
         {
             presenter.LoadData();
+            OldalALable.Hide();
+            oldalBTextBox.Hide();
+        }
+
+        private void comboBox1_SelectedValueChanged(object sender, EventArgs e)
+        {
+            presenter.GetSokszogType(comboBox1.SelectedIndex);
+            if (presenter.oldalBLetezik)
+            {
+                OladlBLable.Show();
+                oldalBTextBox.Show();
+            }
+            else
+            {
+                OladlBLable.Hide();
+                oldalBTextBox.Hide();
+            }
+        }
+
+        private void CalculateButton_Click(object sender, EventArgs e)
+        {
+            presenter.Calculate();
         }
     }
 }
