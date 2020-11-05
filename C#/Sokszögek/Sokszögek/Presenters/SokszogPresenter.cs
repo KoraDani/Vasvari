@@ -1,4 +1,5 @@
 ﻿using Sokszögek.Models;
+using Sokszögek.Properties;
 using Sokszögek.Repositories;
 using Sokszögek.ViewsInterfaces;
 using System;
@@ -38,6 +39,10 @@ namespace Sokszögek.Presenters
                     oldalBLetezik = true;
                     oldalCLetezik = false;
                     break;
+                case "Háromszög":
+                    oldalBLetezik = true;
+                    oldalCLetezik = true;
+                    break;
                 default:
                     oldalBLetezik = false;
                     oldalCLetezik = false;
@@ -62,7 +67,8 @@ namespace Sokszögek.Presenters
                     }
                     else
                     {
-                        view.errorOldalA = "Kérem 0-nál nagyobb számot adjon meg.";
+                        view.errorOldalA = Resources.KisebbEgyenlo0;
+                        view.errorOldalB = Resources.KisebbEgyenlo0;
                     }
                     break;
                 case "Téglalap":
@@ -74,6 +80,35 @@ namespace Sokszögek.Presenters
                         var teglalap = new Teglalap(A,B);
                         view.Kerulet = teglalap.Kerulet().ToString();
                         view.Terulet = teglalap.Terulet().ToString();
+                    }
+                    else if (A <= 0 && B <= 0)
+                    {
+                        view.errorOldalA = Resources.KisebbEgyenlo0;
+                        view.errorOldalB = Resources.KisebbEgyenlo0;
+                    }
+                    else if (A <= 0)
+                    {
+                        view.errorOldalA = Resources.KisebbEgyenlo0;
+                    }
+                    else if (B<=0)
+                    {
+                        view.errorOldalB = Resources.KisebbEgyenlo0;
+                    }
+                    break;
+                case "Háromszög":
+                    double C = 0;
+                    double.TryParse(view.oldalA, out A);
+                    double.TryParse(view.oldalB, out B);
+                    double.TryParse(view.oldalC, out C);
+                    if (A > 0 && B > 0 && C > 0)
+                    {
+                        var haromszog = new Haromszog(A, B, C);
+                        view.Kerulet = haromszog.Kerulet().ToString();
+                        view.Terulet = haromszog.Terulet().ToString();
+                    }
+                    else
+                    {
+                        view.errorOldalC = Resources.KisebbEgyenlo0;
                     }
                     break;
                 default:

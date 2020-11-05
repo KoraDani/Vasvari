@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+form{
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 1em;
+}
+input{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 200px;
+    margin-bottom: 5px;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /*<--- ez ittene fontos*/
+}
+

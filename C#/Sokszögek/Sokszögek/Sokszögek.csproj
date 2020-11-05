@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Haromszog.cs" />
     <Compile Include="Models\Negyzet.cs" />
     <Compile Include="Models\Sokszog.cs" />
     <Compile Include="Models\Teglalap.cs" />
@@ -53,6 +54,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\SokszogRepo.cs" />
+    <Compile Include="ViewsInterfaces\IHaromszogView.cs" />
     <Compile Include="ViewsInterfaces\INegyzetView.cs" />
     <Compile Include="ViewsInterfaces\ISokszogView.cs" />
     <Compile Include="ViewsInterfaces\ITeglalapView.cs" />
@@ -70,6 +72,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Views\SokszogForm.resx">
       <DependentUpon>SokszogForm.cs</DependentUpon>

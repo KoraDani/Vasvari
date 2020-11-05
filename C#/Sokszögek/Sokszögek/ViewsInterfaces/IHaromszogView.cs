@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace Sokszögek.ViewsInterfaces
 {
-    interface ISokszogView : IHaromszogView
+    interface IHaromszogView : ITeglalapView
     {
-        string Kerulet { set; }
-        string Terulet { set; }
-        List<string> SokszogList { set; }
-
+        string oldalC { get; }
+        string errorOldalC { get; set; }
     }
 }

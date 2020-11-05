@@ -37,6 +37,12 @@ namespace Sokszögek.Views
             get => errorPOldalB.GetError(oldalBTextBox);
             set => errorPOldalB.SetError(oldalBTextBox, value); }
 
+        public string oldalC => OldalCTextBox1.Text;
+
+        public string errorOldalC { 
+            get => errorPOldalC.GetError(OldalCTextBox1); 
+            set => errorPOldalC.SetError(OldalCTextBox1, value); }
+
         private void SokszogForm_Load(object sender, EventArgs e)
         {
             presenter.LoadData();
@@ -57,11 +63,26 @@ namespace Sokszögek.Views
                 OladlBLable.Hide();
                 oldalBTextBox.Hide();
             }
+            if (presenter.oldalCLetezik)
+            {
+                OldalCLable.Show();
+                OldalCTextBox1.Show();
+            }
+            else
+            {
+                OldalCLable.Hide();
+                OldalCTextBox1.Hide();
+            }
         }
 
         private void CalculateButton_Click(object sender, EventArgs e)
         {
             presenter.Calculate();
+        }
+
+        private void OldalCLable_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
