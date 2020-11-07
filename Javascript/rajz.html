@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajz</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <canvas id="mycanvas" width="500px" height="500px" style="border: 1px solid black;"></canvas>
+    <script>
+        let x;
+        let y;
+        function getMousePosition(canvas, event) {
+            let rect = canvas.getBoundingClientRect();
+            x = event.clientX - rect.left;
+            y = event.clientY - rect.top;
+            console.log("Coordinate x: " + x,
+                "Coordinate y: " + y);
+        }
+        let canvasElem = document.querySelector("canvas");
+
+
+
+        canvasElem.addEventListener("mousedown", function (e) {
+            getMousePosition(canvasElem, e);
+        });
+
+        var c = document.getElementById("#mycanvas");
+        var ctx = c.getContext("2d");
+        ctx.beginPath();
+        ctx.rect(x, y, 100, 100);
+        ctx.stroke();
+
+    </script>
+</body>
+
+</html>
