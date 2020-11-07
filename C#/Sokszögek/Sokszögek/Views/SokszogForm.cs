@@ -25,15 +25,64 @@ namespace Sokszögek.Views
         public string Terulet { set => TeruletTextBox.Text = value; }
         public List<string> SokszogList { set => comboBox1.DataSource = value; }
 
-        public string oldalA => OldalALable.Text;
+        public string oldalA => OldalATextBox.Text;
 
         public string errorOldalA { 
             get => errorPOldalA.GetError(OldalATextBox);
             set => errorPOldalA.SetError(OldalATextBox, value); }
 
+        public string oldalB => oldalBTextBox.Text;
+
+        public string errorOldalB { 
+            get => errorPOldalB.GetError(oldalBTextBox);
+            set => errorPOldalB.SetError(oldalBTextBox, value); }
+
+        public string oldalC => OldalCTextBox1.Text;
+
+        public string errorOldalC { 
+            get => errorPOldalC.GetError(OldalCTextBox1); 
+            set => errorPOldalC.SetError(OldalCTextBox1, value); }
+
         private void SokszogForm_Load(object sender, EventArgs e)
         {
             presenter.LoadData();
+            OldalALable.Hide();
+            oldalBTextBox.Hide();
+        }
+
+        private void comboBox1_SelectedValueChanged(object sender, EventArgs e)
+        {
+            presenter.GetSokszogType(comboBox1.SelectedIndex);
+            if (presenter.oldalBLetezik)
+            {
+                OladlBLable.Show();
+                oldalBTextBox.Show();
+            }
+            else
+            {
+                OladlBLable.Hide();
+                oldalBTextBox.Hide();
+            }
+            if (presenter.oldalCLetezik)
+            {
+                OldalCLable.Show();
+                OldalCTextBox1.Show();
+            }
+            else
+            {
+                OldalCLable.Hide();
+                OldalCTextBox1.Hide();
+            }
+        }
+
+        private void CalculateButton_Click(object sender, EventArgs e)
+        {
+            presenter.Calculate();
+        }
+
+        private void OldalCLable_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
